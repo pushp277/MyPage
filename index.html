@@ -3,65 +3,118 @@
 	<head>
 		<meta name="viewport" content="width=screen-width, inital-scale=1, srink-to-fix=no">
 		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<title>TheConvergenceTeam</title>
 		<link rel="icon" href="images/logo.png">
 		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">
 	
 	</head>
-		<body>
+		<body class="p-2">
+			<nav class="p-1 mx-1 navbar navbar-light navbar-expand-md bg-primary rounded" style="--bs-bg-opacity: 0.1;">
+				<div class="container-xl">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar"><span class="navbar-toggler-icon"></span></button>
+					<a class="navbar-brand" href="#home"><img class="img-fluid align-self-start" src="images/logo.png" height=50px width=50px ><span class="fw-bolder text-dark">The Convergence Team</span></a>
 
-			<header class="m-1 p-4 border-5 border-start border-primary shadow display-2 justify-content-center">
+					<div id="Navbar" class="collapse navbar-collapse justify-content-end">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active"><a href="#home" class="nav-link fw-bolder text-primary"><span class="fa fa-home fa-lg"></span> Home</a></li>
+						<li class="nav-item"><a href="#aboutus" class="nav-link fw-bolder text-primary"><span class="fa fa-info fa-lg"></span> About Us</a></li>
+						<li class="nav-item"><a href="#" class="nav-link fw-bolder text-primary"><span class="fa fa-list fa-lg"></span> Register Now</a></li>
+						<li class="nav-item"><a href="#app" class="nav-link fw-bolder text-primary"> <span class="fa fa-download fa-lg"></span> Download App</a></li>
+						<li class=" nav-item"><a href="#vid" class="nav-link fw-bolder text-primary"><span class="fa fa-info fa-lg"></span> Intro</a></li>
+						<li class="nav-item"><a href="#contact" class="nav-link fw-bolder text-primary"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+					</ul>
+					</div>
+				</div>
+			</nav>
+			<div id="home"></div>
+			
+					
+			<header class="m-1 p-4 bg-dark text-light shadow display-2 justify-content-center rounded" style="--bs-bg-opacity: 0.9">
 				<div class="row">	
 						<div class="col offset-1 text-center align-self-center fw-bold">
-								The Convergence Team
-					
-					<img class="img-fluid" src="images/logo.png" alt="company logo" height="100px" width="100px">
-
+								
+					<img class="img-fluid d-none d-sm-inline" src="images/logo.png" alt="company logo" height="100px" width="100px">
+					<span class="d-none d-sm-inline"> The Convergence Team</span>
+					<p class="lead">Everything seems to diverse until converges</p>
 				</div>
 			</header>
-			<div class="container shadow">
-			<div class="row">
-				<div class="col">
-					<p class="lead"></p>
+			
+			<div id="aboutus" class="shadow container-xl">
+				<p class="lead text-center" style="font-size: 25px; padding-top: 30px;"> About Us</p>
+				<p class="lead text-center p-2">The Convergence Team has a vision to guide student who is really worried about their career. The Convergence Team cosists of a group of experience
+					people who have achived whatever they want in their life! We are very excited to serve you and guide you to do whatever you like and wanted to achive in your life. Join us and start
+					achiving your Goals with right plan
+				</p>
+			<div class="row p-3 m-3 justify-content-center align-items-center">
+				<div class="col-7 col-md order-last order-md-first text-center">
+					<p class="lead d-none d-md-block">Pushp Raj is the CEO and the Founder of The Convergence Team currently, He is pursuing his B.Tech in Engineering Physics from Indian Insitute of Technology, Delhi.
+						Recently He gets an offer from Rakuten Mobile, Inc. to work as a Software Engineering in Tokyo, Japan. He is joining the company in the month of October next year. 
+						He is a Software Developer, FullStack-Developer, Competitive Coder and has a very deep knowledge of Technology and Programming Languages like JAVA, C++, Python etc.
+					</p>
+					
+			</div>
+			<div class="col-7 col-md-2 text-center order-first order-md-last"><img src="images/IMG_0164-min.png" alt="Pushp Raj CEO of The Convergence Team" class="img-fluid rounded border" height=200px width=200px></div>
+				</div>
+
+				<div class="row p-3 m-3 justify-content-center align-items-center">
+					<div class="col-7 col-md-2 text-center">
+						<img src="images/shivam.jpg" alt="Shivam Rai CTO of The Convergence Team" class="img-fluid rounded border" height=200px width=200px>
+					</div>
+					<div class="col-7 col-md text-center">
+						<p class="lead d-none d-md-block">Shivam Rai is the CTO and the Founder of The Convergence Team currtently, He is pursuing his B.Tech in Electrical Engineering from National Insitute of Technology
+							, Jamshedpur (NIT Jamshedpur). He is a Technology Expert and has a good knowlege about block-chain and web-3
+						</p>
+					</div>
 				</div>
 			</div>
-			</div>
-			<div class="row justify-content-center border shadow">
-				<p class="col-md-4 col lead fw-bold text-center align-self-center"> "Our Team is fully dedicated to make you future ready for the competition and guide to make a strong career" </p>
-				
-				<video  class="d-none d-sm-block m-4 col-4  text-center" width=429 height=315 controls autoplay muted loop>
-					<source src="images/intro.mp4" type="video/mp4">
-				</video>
-			</div>
-
+		
+			<div id="app" class="container">
 			<div class="row p-3 m-3 justify-content-center shadow">
 				<div class="col text-center">
 				<p class="lead">Download our App <a class="btn btn-outline-success" href="#">click here</a></p>
 				</div>
 			</div>
-			<footer class="m-1 p-4 border-start border-primary border-5 justify-content-center shadow">
+			</div>
+			<div id="vid" class="row justify-content-center border shadow">
+				<p class="col-md-4 col-7 lead fw-bold text-center align-self-center"> "Our Team is fully dedicated to make you future ready for the competition and guide to make a strong career" </p>
+				
+				<video class=" m-4 col-7 col-md-4 text-center" width=429 height=315 controls autoplay muted loop>
+					<source src="images/intro.mp4" type="video/mp4">
+				</video>
+			</div>
+
 			
+			<footer id="contact" class="m-1 p-4 justify-content-center shadow bg-primary" style="--bs-bg-opacity: 0.4">
+				<p class="ms-5 display-5 lead">Our Address</p>
+				<address class="m-2 p-2 align-items-center justify-content-center">
+					<p class="lead fw-bold ms-5"><span class="fa fa-phone fa-lg"></span> <a class ="btn fw-bold" type="button" href="tel: +918408919197">+91 8406919197</a></p>
+					<p class="lead fw-bold ms-5"><span class="fa fa-envelope fa-lg"></span> <a class="btn fw-bold" href="mailto:tct13820@gmail.com">tct13820@gmail.com</a></p>
+					<p class="lead fw-bold ms-5"><span class="fa fa-address-card fa-lg"></span> Yaduvansh Nagar Chas, Bokaro, PIN: 827013, Jharkhand, India</p>
+					
+				</address>
 				<div class="row justify-content-center">
-					<a href="#" class="col-1 text-center">
+					<a href="#" class="col-2 col-md-1 text-center">
 						<img class="img-fluid" src="images/facebook.png" alt="join us on facebook" height=50px width=50px>
 					</a>
-					<a href="#" class="col-1 text-center">
+					<a href="#" class="col-2 col-md-1 text-center">
 						<img class="img-fluid" src="images/instagram.png" alt="join us on instagram" height=50px width=50px>
 					</a>
 			
-					<a href="https://www.youtube.com/channel/UCiv9MMDmJx1hGe5ix7_IodQ" class="col-1 text-center">
+					<a href="https://www.youtube.com/channel/UCiv9MMDmJx1hGe5ix7_IodQ" class="col-2 col-md-1 text-center">
 						<img class="img-fluid" src="images/youtube.png" alt="youtube channel" height=50px width=50px>
 					</a>
-					<a href="#" class="col-1 text-center">
+					<a href="#" class="col-2 col-md-1 text-center">
 						<img class="img-fluid" src="images/twitter.png" alt="join us on twitter" height=50px width=50px>
 					</a>
-					<a href="#" class="col-1 text-center">
+					<a href="#" class="col-2 col-md-1 text-center">
 						<img class="img-fluid" src="images/linkedin.png" alt="linkedin profile" height=50px width=50px>
 					</a>
 			</div>
 			<div class="row m-4">
-				<p class="lead col text-center align-self-center fw-bold">&copy copyright</p>
+				<p class="lead col text-center align-self-center fw-bold">&copy 2022, The Convergence Team, All rights reserved.</p>
 			</div>
 			</footer>
 		</body>
